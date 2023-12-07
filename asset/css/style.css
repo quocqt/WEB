@@ -1,0 +1,215 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* data-interval="10000" */
+
+
+/* header */
+.header .element-1 {
+    justify-content: space-between;
+}
+
+.header ul li a {
+    font-size: 15px;
+    color: #333c4a;
+    padding: 44px 25px;
+    font-weight: 700;
+    display: block;
+}
+
+.header .option button {
+    width: 40px;
+    height: 40px;
+    color: #333c4a;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    background-color: aliceblue;
+}
+
+.header .option .cart,
+.admin {
+    width: 40px;
+    height: 40px;
+    color: #333c4a;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.header .option .cart {
+    padding-right: 35px;
+}
+
+
+/* end header */
+
+/* section-1 */
+.section-1 .carousel-caption
+{
+    bottom: 180px;
+    width: 50%;
+    left: 0%;
+}
+.section-1 .carousel-caption h3
+{
+    color: #333c4a;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.section-1 .carousel-caption h1
+{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    
+}
+.section-1 .carousel-caption button
+{
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    background-color: #333c4a;
+    border: black;
+    height: 50px;
+}   
+.section-1 .slide-2
+{
+    bottom: 165px;
+    width: 50%;
+    left: 45%;
+}
+/* end section-1 */
+
+/* section-2 */
+.section-2 {
+    background-color: #62d2a2;
+    padding: 60px 0;
+}
+
+.section-2 .element {
+    text-align: center;
+}
+
+.section-2 .element i {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.section-2 .element h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    padding: 17px 0 14px;
+
+}
+
+.section-2 .element p {
+    font-size: 15px;
+}
+
+
+
+/* end section-2 */
+
+
+
+/* footer */
+footer {
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+footer .element {
+    padding-right: 0;
+}
+
+footer .element .title-1 {
+    padding-bottom: 30px;
+}
+
+footer .element .title-2 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+footer .element h3 {
+    color: #333c4a;
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+footer .element h3::before {
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #62d2a2;
+}
+
+footer .element .body p {
+    color: #707070;
+    font-size: 15px;
+}
+
+footer .element .body ul li a {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    padding: 10px 0;
+}   
+footer .element .body ul li span
+{
+    color: #333c4a;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+} 
+
+
+/* end footer */
+
+
+
+/* footer-area */
+.footer-area .element
+{
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+.footer-area .element .payment
+{
+    text-align: right;
+}
+
+/* end footer-area */
